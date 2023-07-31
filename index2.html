@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        body {
+            background: white;
+        }
+        .navbar {
+            background: rgba(255, 255, 0, 0.353);
+        }
+        .navbar_logo {
+            color: black;
+        }
+        a {
+            color: black;
+        }
+        .box {
+    height: 1000px;
+}
+   .box i {
+            display: block;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: none;
+            border: 2px solid red;
+        }
+        .item{
+            width: 160px;
+            height: 140px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid blue;
+        }
+        .item p {
+            border: 2px solid red ;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .item span {
+            width: 100%;
+            border: 2px solid black;
+        }
+        .box2 {
+            position: relative;
+            top: -100px;
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            display: none;
+        }
+        .input {
+            display: block;
+            width: 200px;
+            height: 30px;
+            color: black;
+            margin: 0px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="continer">
+        <div class="box">
+            <i></i>
+        
+        <nav>
+            <div class="navbar">
+                <div class="navbar_logo">IMTIXON</div>
+                <div class="navbar_menu">
+                    <div class="link">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </div>
+                    <div class="button">
+                        <a href="#"><img id="search" src="./search.svg" alt="search" width="100px" height="50px"></a>
+                        <a href="index.html"><img src="./sun.svg" id="btn" alt="search" width="100px" height="50px"></a>
+                        <div class="box2"><input type="text" name="mna" placeholder="qidiruv"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
